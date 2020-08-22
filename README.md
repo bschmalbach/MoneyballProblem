@@ -1,4 +1,4 @@
-# MoneyballProblem
+# Moneyball Problem
 
 This problem is part of the Udemy Data Science and Machine Learning Bootcamp with R.<br>
 The goal is to find the optimal replacements for the three batters who left the Oakland Athletics in 2001.
