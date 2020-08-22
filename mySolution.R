@@ -63,7 +63,7 @@ trios <- trios %>% mutate(salary=salary1+salary2+salary3, AB=AB1+AB2+AB3, OBP=(O
 library(ggplot2)
 pl <- ggplot(trios)+ 
   geom_point(aes(x=salary, y=OBP, col=AB)) +
-  xlab("Combined Salary for 2001") + ylab("Average On Base Percentage") + scale_fill_continuous(name = "At Base Sum")+
+  xlab("Combined Salary for 2001") + ylab("Average On Base Percentage") + scale_fill_continuous(name = "Combined At Bats")+
   ggtitle("Moneyball Trios")
 
 ply <- plotly::ggplotly(pl)
