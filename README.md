@@ -8,3 +8,6 @@ The following statistics were to be considered to find the best rio: Combined sa
 In my solution I first visualize all reasonably good trios and then pick the one that appears the best to me.
 
 <img src="https://github.com/bschmalbach/MoneyballProblem/blob/master/Rplot.png">
+
+IMO, the best solution at Salary = 10,088,333, At Base =	1773, and OBP = .430 is:
+--> berkmla01,	gonzalu01,	heltoto01
