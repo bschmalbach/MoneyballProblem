@@ -55,19 +55,16 @@ for (i in 1:length(names)) {
   }
 }
 
-
 #keep only those trios that meet or exceed the standards of the oldboys
 trios <- trios %>% mutate(salary=salary1+salary2+salary3, AB=AB1+AB2+AB3, OBP=(OBP1+OBP2+OBP3)/3) %>% 
   filter(salary<=1.5*10^7, AB>=1469, OBP>=.364) 
-
-
 
 #visualize the distribution of trios
 library(ggplot2)
 pl <- ggplot(trios)+ 
   geom_point(aes(x=salary, y=OBP, col=AB)) +
-  xlab("Comined Salary for 2001") + ylab("Average On Base Percentage") + scale_fill_continuous(name = "At Base Sum")+
-  scale_x_continuous(breaks=c(0, 5000000, 10000000, 15000000)) + ggtitle("Moneyball Trios")
+  xlab("Combined Salary for 2001") + ylab("Average On Base Percentage") + scale_fill_continuous(name = "At Base Sum")+
+  ggtitle("Moneyball Trios")
 
 ply <- plotly::ggplotly(pl)
 print(ply)
