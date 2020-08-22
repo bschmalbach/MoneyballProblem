@@ -7,4 +7,4 @@ The following statistics were to be considered to find the best rio: Combined sa
 
 In my solution I first visualize all reasonably good trios and then pick the one that appears the best to me.
 
-<img src="https://github.com/bschmalbach/MoneyballProblem/Rplot.png">
+<img src="https://github.com/bschmalbach/MoneyballProblem/blob/master/Rplot.png">
