@@ -5,7 +5,7 @@ The goal is to find the optimal replacements for the three batters who left the 
 
 The following statistics were to be considered to find the best rio: Combined salary, combined bats, and average on base percentage.
 
-In my solution I first visualize all reasonably good trios and then pick the one that appears the best to me.
+In my solution, I first visualize all reasonably good trios and then pick the one that appears the best to me.
 
 <img src="https://github.com/bschmalbach/MoneyballProblem/blob/master/Rplot.png">
 
